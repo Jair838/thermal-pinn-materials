@@ -1,0 +1,1 @@
+This repository contains the complete code, generated figures, and data pipeline for the research paper: **"Physics-Informed Discovery of Thermal Transport Laws in Materials: A Hybrid PINN-Random Forest Approach"**.
