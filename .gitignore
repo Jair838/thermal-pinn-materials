@@ -1,0 +1,9 @@
+data/*.csv
+data/*.pth
+*.zip
+backup_viejo/
+backup_scripts/
+__pycache__/
+*.pyc
+.env
+.ipynb_checkpoints/

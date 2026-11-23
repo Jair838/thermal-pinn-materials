@@ -1,0 +1,20 @@
+
+a = float(input("Ingrese el primer número: "))
+operador = input("Ingrese la operación (+, -, *, /): ")
+b = float(input("Ingrese el segundo número: "))
+
+if operador == "+":
+    resultado = a + b
+elif operador == "-":
+    resultado = a - b
+elif operador == "*":
+    resultado = a * b
+elif operador == "/":
+    if b != 0:
+        resultado = a / b
+    else:
+        resultado = "Error: división por cero"
+else:
+    resultado = "Operador no válido"
+
+print(f"Resultado: {resultado}")
